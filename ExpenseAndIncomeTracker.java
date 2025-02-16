@@ -420,7 +420,7 @@ public class ExpenseAndIncomeTracker {
         g2d.setFont(new Font("Arial",Font.BOLD,20));
         g2d.drawString(title,20,30);
 
-     // draw value
+     
         g2d.setColor(Color.black);
         g2d.setFont(new Font("Arial",Font.PLAIN,16));
         g2d.drawString(value,20,75);
@@ -429,7 +429,7 @@ public class ExpenseAndIncomeTracker {
 
     }
 
-    //Custom cell renderer for the transaction table
+   
 
 }
 
